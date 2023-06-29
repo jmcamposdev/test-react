@@ -28,4 +28,5 @@ jobs:
     - run: npm test
     - run: npm run build
     - run: rsync -av build/ ../../../../build
+    - run: rm -rf ../test-react
    
