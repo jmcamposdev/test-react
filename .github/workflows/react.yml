@@ -27,5 +27,5 @@ jobs:
     - run: npm i
     - run: npm test
     - run: npm run build
-    - run: mv build ../../../../.
+    - run: rsync -av build/ ../../../../build
    
